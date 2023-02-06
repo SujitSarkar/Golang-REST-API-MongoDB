@@ -8,6 +8,6 @@ type Address struct {
 
 type User struct {
 	Name    string  `json:"name" bson:"user_name"`
-	Age     string  `json:"age" bson:"user_age"`
+	Age     int     `json:"age" bson:"user_age"`
 	Address Address `json:"address" bson:"user_address"`
 }
